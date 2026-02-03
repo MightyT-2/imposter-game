@@ -1,0 +1,106 @@
+Chair
+Table
+Lamp
+Door
+Window
+Pen
+Pencil
+Notebook
+Book
+Keyboard
+Mouse
+Monitor
+Printer
+Phone
+Wallet
+Watch
+Glasses
+Hat
+Shoe
+Sock
+Towel
+Pillow
+Blanket
+Mattress
+Desk
+Shelf
+Cabinet
+Mirror
+Picture Frame
+Clock
+Candle
+Vase
+Plant
+Flower Pot
+Basket
+Box
+Bag
+Backpack
+Purse
+Suitcase
+Umbrella
+Keys
+Lock
+Hanger
+Coat
+Scarf
+Gloves
+Belt
+Tie
+Shirt
+Pants
+Underwear
+Bra
+Socks
+T-Shirt
+Sweater
+Jacket
+Jeans
+Shorts
+Skirt
+Dress
+Ring
+Necklace
+Bracelet
+Earring
+Hair Brush
+Comb
+Mirror
+Toothbrush
+Toothpaste
+Soap
+Shampoo
+Towel
+Bath Mat
+Toilet Paper
+Trash Can
+Mop
+Broom
+Dustpan
+Vacuum
+Iron
+Ironing Board
+Clothes Hanger
+Laundry Basket
+Bed Sheet
+Pillowcase
+Duvet
+Mattress Pad
+Knife
+Fork
+Spoon
+Plate
+Bowl
+Cup
+Glass
+Mug
+Pot
+Pan
+Spatula
+Wooden Spoon
+Cutting Board
+Bottle
+Jar
+Can Opener
+Corkscrew
+Measuring Cup
