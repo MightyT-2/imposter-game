@@ -93,10 +93,11 @@ def main() -> None:
     imposters     = []
     wordList      = []
     votedImposter = []
-    continueLoop  = 0
+    continueSame  = True
+    continueNew   = True
     
     # Continue with new players loop
-    while continueLoop == 0:
+    while continueNew:
 
         # Get the player list
         clearScreen()
@@ -110,8 +111,8 @@ def main() -> None:
                 print('You cannot have repeat names')
 
         # Continue with same players loop
-        continueLoop = 1
-        while continueLoop == 1:
+        continueSame = True
+        while continueSame:
 
             # Get the imposter count
             clearScreen()
@@ -207,8 +208,12 @@ def main() -> None:
                     userIndex = -1
             if userIndex == 0:
                 Player.clearPlayers()
+                continueSame = False
             elif userIndex == 1:
                 Player.clearImposters()
+            elif userIndex == 2:
+                continueSame = False
+                continueNew  = False
 
 
 if __name__ == "__main__":
