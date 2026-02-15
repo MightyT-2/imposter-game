@@ -102,13 +102,18 @@ def main() -> None:
         # Get the player list
         clearScreen()
         inputPlayers = ''
-        print('Enter "!" when finished.')
-        while inputPlayers[:1] != '!':
+        print('Enter "!" when finished (minimum 2 players required).')
+        while True:
             inputPlayers = input('Enter player name: ')
-            if inputPlayers not in [''] + Player.getNameList() and inputPlayers != '!':
-                Player(inputPlayers.strip())
+            if inputPlayers == '!':
+                if len(Player.playerList) >= 2:
+                    break
+                else:
+                    print(f'You need at least 2 players! Currently have {len(Player.playerList)}.')
             elif inputPlayers in Player.getNameList():
                 print('You cannot have repeat names')
+            elif inputPlayers != '':
+                Player(inputPlayers.strip())
 
         # Continue with same players loop
         continueSame = True
