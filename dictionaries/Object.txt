@@ -1,106 +1,80 @@
-Chair
-Table
-Lamp
-Door
-Window
-Pen
-Pencil
-Notebook
-Book
-Keyboard
-Mouse
-Monitor
-Printer
-Phone
-Wallet
-Watch
-Glasses
-Hat
-Shoe
-Sock
-Towel
+Plate
+Bowl
+Cup
+Fork
+Knife
+Spoon
+Dining Table
+Basket
+Bed
 Pillow
 Blanket
+Sheet
 Mattress
-Desk
-Shelf
-Cabinet
-Mirror
-Picture Frame
+Nightstand
+Lamp
+Wardrobe/Closet
 Clock
-Candle
-Vase
-Plant
-Flower Pot
-Basket
-Box
-Bag
-Backpack
-Purse
-Suitcase
-Umbrella
-Keys
-Lock
 Hanger
-Coat
-Scarf
-Gloves
-Belt
-Tie
-Shirt
-Pants
-Underwear
-Bra
-Socks
-T-Shirt
-Sweater
-Jacket
-Jeans
-Shorts
-Skirt
-Dress
-Ring
-Necklace
-Bracelet
-Earring
-Hair Brush
-Comb
-Mirror
+Towel
+Bath Mat
+Toilet Paper
 Toothbrush
 Toothpaste
 Soap
 Shampoo
-Towel
-Bath Mat
-Toilet Paper
-Trash Can
-Mop
+Conditioner
+Razor
+Mirror
+Couch
+TV
+Rug
+Bookshelf
+Lamp
+Curtain
 Broom
-Dustpan
+Mop
 Vacuum
-Iron
-Ironing Board
-Clothes Hanger
+Sponge
+Bucket
+Trash Can
+Detergent
+Desk
+Chair
+Computer
+Printer
+Paper
+Pen
+Pencil
+Notebook
+Stapler
+Refrigerator
+Microwave
+Oven
+Toaster
+Blender
+Coffee Maker
+Kettle
+Dishwasher
+Washing Machine
+Dryer
+Picture Frame
+Vase
+Candle
+Painting
+Hammer
+Screwdriver
+Wrench
+Nails
+Screws
+Tape
+Scissors
+Measuring Tape
+Flashlight
+Batteries
 Laundry Basket
-Bed Sheet
-Pillowcase
-Duvet
-Mattress Pad
-Knife
-Fork
-Spoon
-Plate
-Bowl
-Cup
-Glass
-Mug
-Pot
-Pan
-Spatula
-Wooden Spoon
-Cutting Board
-Bottle
-Jar
-Can Opener
-Corkscrew
-Measuring Cup
+Iron
+Sewing Kit
+Fan
+Heater
+Thermometer
