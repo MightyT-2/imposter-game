@@ -1,6 +1,6 @@
 from os import system, listdir
 from platform import system as os
-from random import sample, choice
+from random import sample, choice, randint
 
 class Player:
     playerCount = 0
@@ -79,6 +79,13 @@ def conjunction(nameList: list[str]) -> str:
     else:
         return ', '.join(nameList[:-1]) + ', and ' + nameList[len(nameList) - 1]
     
+def allImposter() -> bool:
+    for lines in open('settings.txt', 'r').read().split('\n'):
+        if lines == 'ALLIMPOSTERS = TRUE':
+            if randint(1, 100) == 100:
+                return True
+    return False
+
 def main() -> None:
     # Variables
     inputPlayers  = ''
@@ -156,8 +163,13 @@ def main() -> None:
             Player.setWord(choice(wordList))
 
             # Set the imposters
-            for x in sample(Player.playerList, imposterCount):
-                x.setImposter()
+            if allImposter():
+                for x in Player.playerList:
+                    x.setImposter()
+            else:
+                for x in sample(Player.playerList, imposterCount):
+                    x.setImposter()
+                
             
             # Give players the word
             for x in Player.playerList:
